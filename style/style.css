@@ -1,0 +1,116 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+body{
+    width: 100%;
+    background-color: #166534;
+}
+.scoresmain{
+    margin: 20px auto;
+    width: 90%;
+    height: 200px;
+    background-color: #581C87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 4px solid #9F1239;
+}
+.description{
+    width: 20%;
+    height: 100px;
+    background-color: #334155;
+    color: #FACC15;
+    font-size: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border: 4px solid #9F1239;
+    border-radius: 10px;
+}
+.restart{
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.restart:hover{
+    color: #F97316;
+}
+.scoresscores{
+    width: 40%;
+    height: 100px;
+    background-color: #334155;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FACC15;
+    font-size: 46px;
+    border: 4px solid #9F1239;
+    border-radius: 10px;
+
+}
+.burabox{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    margin-top: 30px;
+}
+.saxeli{
+    width: 20%;
+    height: 500px;
+    border: 4px solid #9F1239;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #FACC15;
+    background-color: #581C87;
+}
+.valeti{
+    width: 100%;
+    height: 500px;
+    background-image: url(../picture/valetiyvavi.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 10px;
+}
+.dasatvleli{
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.dasatvleli1{
+    width: 20%;
+    height: 100%;
+    border: 2px solid #000000;
+    margin-left: 10px;
+}
+.queen{
+    background-image: url(../picture/zangi.jpeg);
+}
+.king{
+    background-image: url(../picture/cowboy.jpeg);
+}
+.ace{
+    background-image: url(../picture/tuzi4.jpeg);
+    background-size: 97%;
+}
+.smth10{
+    background-image: url(../picture/10yvava.jpeg);
+    background-size: 97%;
+
+}
+.valeti:hover{
+    cursor: pointer;
+    background-color: #1D4ED8;
+    color: #E11D48;
+    border-radius: 10px;
+}
